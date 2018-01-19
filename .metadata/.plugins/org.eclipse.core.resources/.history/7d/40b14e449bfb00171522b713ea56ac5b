@@ -1,0 +1,27 @@
+package leccion03;
+
+public class App {
+	
+	public static void main(String[] args) {
+		
+		Circulo circulo1 = new Circulo();
+		
+		int x = 0;
+		int y = 0;
+		int radio = 10;
+		String color = "azul";
+		
+		circulo1.mostrar();
+		
+		Circulo circulo2 = new Circulo();
+		
+		int x = 10;
+		int y = 20;
+		int radio = 50;
+		String color = "amarillo";
+		
+		circulo2.mostrar();
+	}
+
+	
+}

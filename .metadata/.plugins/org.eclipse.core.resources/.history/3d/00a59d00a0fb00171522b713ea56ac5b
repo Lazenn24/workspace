@@ -1,0 +1,34 @@
+package leccion04;
+
+public class Rectangulo {
+	
+	int x, y; // Posición del rectangulo (esquina superior izquierda)
+	int altura, base;
+	String color;
+	
+	void mostrar(){
+		System.out.println("El rectángulo esta en la posición (" + x + ", " + y + "), tiene base " + base + ", altura " + altura + " y color " + color);
+	}
+	
+	int perimetro(){
+		
+		return (2 * base) + (2 * altura);
+	}
+	
+	double area(){
+		
+		return base * altura;
+	}
+	
+	void desplazar (int dx, int dy){
+
+	}
+	
+	void estaDentroDe (int h, int v){
+		
+		
+	}
+		
+	
+
+}

@@ -1,0 +1,27 @@
+//Encontrar el mínimo y el máximo de una array.
+package Arrays;
+
+public class Prueba07 {
+
+	public static void main(String[] args) {
+		
+		//Vamos a enocntrar el minimo y el maximo del array
+		
+		int notas[] = {7, 5, 10, 8, 3, 1};
+		
+		int posMin = 0;
+		
+		for (int i = 0; i < notas[posMin]; i++){
+			
+			// Si el elemeneto i es mas pequeño que el de posMin, ahora posMin valdra i.
+			if(notas[i] < posMin){
+				posMin = i;
+			}
+			System.out.println("i = " + i + " y posMin = " + posMin);
+		}
+		System.out.println("La posición donde esta el mínimo es: " + posMin);
+		System.out.println("EL valor mínimo es: " + notas[posMin]);
+
+	}
+
+}

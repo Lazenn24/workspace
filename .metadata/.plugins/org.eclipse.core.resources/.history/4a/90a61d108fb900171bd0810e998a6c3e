@@ -1,0 +1,19 @@
+package bucles;
+
+import java.util.*;
+
+public class bucles12 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Escribe un numero entero");
+
+		// Queremos leer un entero.
+		while (entrada.hasNextInt() == false) {
+			System.out.println("Dato incorrecto");
+			entrada.nextInt();
+		}
+
+	}
+
+}

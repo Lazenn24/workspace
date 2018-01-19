@@ -1,0 +1,14 @@
+package leccion04;
+
+import java.util.Scanner;
+
+public class App {
+	
+	static Scanner in = new Scanner (System.in);
+	
+	public static void main(String[] args) {
+		
+		Rectangulo r1 = new Rectangulo();
+	}
+
+}

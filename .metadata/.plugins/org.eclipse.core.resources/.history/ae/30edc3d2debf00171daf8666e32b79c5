@@ -1,0 +1,18 @@
+//21.- Crea un programa que pregunte el nombre del usuario y luego lo escriba. Ahora bien, si el 
+//usuario no introduce nada, el nombre deberá quedar con el valor "Desconocido".
+package condicionales;
+
+import java.util.*;
+
+public class ejCondicionales21 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+
+		System.out.println("Escribe tu nombre de usuario: ");
+		String user = entrada.next();
+
+		System.out.println("Tu nombre de usuario es " + user);
+	}
+
+}

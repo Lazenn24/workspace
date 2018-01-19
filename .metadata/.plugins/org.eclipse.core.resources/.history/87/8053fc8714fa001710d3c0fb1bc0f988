@@ -1,0 +1,32 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Persona p = new Persona();
+		
+		p.apellidos = "Pérez López";
+		p.nombre = "Laura";
+		p.dni = "10200121T";
+		
+		System.out.println("Nombre: " + p.nombre);
+		System.out.println("Apellidos: " + p.apellidos);
+		System.out.println("DNI: " + p.dni);
+		
+		Persona p2 = new Persona();
+		
+		p.apellidos = "Martinez Valls"; 
+		p.nombre = "Manuel";
+		p.dni = "27892567B";
+		
+		System.out.println("Nombre: " + p2.nombre);
+		System.out.println("Apellidos: " + p2.apellidos);
+		System.out.println("DNI: " + p2.dni);
+		
+		
+		
+		
+		
+	}
+
+}

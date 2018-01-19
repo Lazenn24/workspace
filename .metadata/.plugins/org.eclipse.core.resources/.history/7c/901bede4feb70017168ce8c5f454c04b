@@ -1,0 +1,18 @@
+//7.- Crea un programa que escriba los 50 primeros números pares. 
+package bucles;
+import java.util.*;
+public class bucles10 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner (System.in);
+		int i = 0;
+		
+		while (i <= 48){
+			System.out.println(i);
+			i = i +2;
+		}
+		
+
+	}
+
+}

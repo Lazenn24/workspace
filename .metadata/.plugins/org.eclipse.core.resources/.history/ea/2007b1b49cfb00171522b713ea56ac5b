@@ -1,0 +1,22 @@
+package leccion03;
+
+public class Circulo {
+
+	int x, y; // Coordenadas del centro en píxeles.
+	int radio; // Radio del círculo.
+	String color; // Color del círculo
+	
+	// Métodos
+	
+	void mostrar(){
+		
+		System.out.println("El centro del círculo esta en las coordenadas (" + x + ", " + y + "), tiene un radio de " + radio + " píxeles y es de color " + color);
+	}
+	
+	void desplazar(int dradio){
+		
+		radio = radio + dradio;
+		
+	}
+	
+}
