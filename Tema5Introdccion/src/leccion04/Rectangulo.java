@@ -33,7 +33,7 @@ public class Rectangulo {
 
 	boolean estaDentroDe(int h, int v) {
 		
-		if (h >= x && h <= (x + base) && v <= y && v >= (y - altura)) {
+		if (h > x && h < (x + base) && v < y && v > (y - altura)) {
 
 			return true;
 		} else {

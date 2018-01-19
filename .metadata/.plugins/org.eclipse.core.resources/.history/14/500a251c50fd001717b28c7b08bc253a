@@ -1,0 +1,15 @@
+package leccion07;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Punto p = new Punto(3, 10, "verde");
+		
+		
+		
+		
+		
+	}
+
+}
