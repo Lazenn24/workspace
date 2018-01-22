@@ -46,9 +46,7 @@ public class App {
 				+ ", su altura es " + r1.getAltura() + " y su color es "
 				+ r1.getColor());
 		
-		/* Todos los rectangulos tienen color azul porque la variable de color es estatica y el ultimo valor que se le ha dado ha sido azul
-		 *al modificarlo con los setters.
-		*/
+		
 		r1.mostrar();
 		r2.mostrar();
 		r3.mostrar();
