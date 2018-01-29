@@ -9,5 +9,10 @@
     "location": "/home/horabaixa/workspace/Tema5Introdccion/src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027/home/horabaixa/workspace/Tema5Introdccion/src\u0027. Skipped."
+  },
+  "/home/horabaixa/workspace/Tema5_Proyecto1/src": {
+    "location": "/home/horabaixa/workspace/Tema5_Proyecto1/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/home/horabaixa/workspace/Tema5_Proyecto1/src\u0027. Skipped."
   }
 }

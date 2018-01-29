@@ -7,8 +7,8 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "ae6113fbcae206fd4c88d4ebe35b8fba5a36bf7c",
-    "jarFileModificationDate": "2017-09-25T17:57:45+02:00",
+    "jarFileFingerprint": "8170462a08a98ca2abc94e5b19ff3bbaa427880f",
+    "jarFileModificationDate": "2018-01-24T16:38:41+01:00",
     "location": "/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar",
     "javaRuntime": true
   },
@@ -20,8 +20,8 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "a05db664d6a4c919f69281e90c25bc264ee63b71",
-    "jarFileModificationDate": "2017-09-25T17:57:44+02:00",
+    "jarFileFingerprint": "d8b79463df67108a2fff98a864b659618102cc56",
+    "jarFileModificationDate": "2018-01-24T16:38:41+01:00",
     "location": "/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar",
     "javaRuntime": true
   },
@@ -33,8 +33,8 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "d958adac5f1edefa22045a1409ccdeff154779c1",
-    "jarFileModificationDate": "2017-09-25T17:57:45+02:00",
+    "jarFileFingerprint": "1339225468ddce1b309ece30bdfa1d3a2048f9d3",
+    "jarFileModificationDate": "2018-01-24T16:38:41+01:00",
     "location": "/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar",
     "javaRuntime": true
   },
@@ -46,8 +46,8 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "339f809c7814e8280eb30d53b7a877cc13f1e073",
-    "jarFileModificationDate": "2017-09-25T17:57:45+02:00",
+    "jarFileFingerprint": "765ee4220e428a2c107e83600270f221aed1a4c2",
+    "jarFileModificationDate": "2018-01-24T16:38:41+01:00",
     "location": "/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar",
     "javaRuntime": true
   },
@@ -59,8 +59,8 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "9c7f24d740e1f6285420288fb661ccc6669143e1",
-    "jarFileModificationDate": "2017-09-25T17:57:45+02:00",
+    "jarFileFingerprint": "b91edc8f68241210b1e2b4b909109eef9e09815c",
+    "jarFileModificationDate": "2018-01-24T16:38:41+01:00",
     "location": "/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar",
     "javaRuntime": true
   },
@@ -72,8 +72,8 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "63f0a200b65b90a5ed92eb9db24d0b73d24cfc3c",
-    "jarFileModificationDate": "2017-09-25T17:57:45+02:00",
+    "jarFileFingerprint": "597ad38e4f1e4f595624b3fec342a269dd391945",
+    "jarFileModificationDate": "2018-01-24T16:38:41+01:00",
     "location": "/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar",
     "javaRuntime": true
   },
@@ -85,8 +85,8 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "efcdff13a45f5f4f2c9af2827295509378fa7892",
-    "jarFileModificationDate": "2017-09-25T17:57:45+02:00",
+    "jarFileFingerprint": "11240c5224a9a6e6af3bb65431acd384ccc6b1a4",
+    "jarFileModificationDate": "2018-01-24T16:38:41+01:00",
     "location": "/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar",
     "javaRuntime": true
   },
@@ -98,8 +98,8 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "6c5948acd3bf1b0d3b814351b365386f315e26ad",
-    "jarFileModificationDate": "2017-09-25T17:57:45+02:00",
+    "jarFileFingerprint": "af1e4e9eb58fffd90f0b91e582b1ceaaf87f0c18",
+    "jarFileModificationDate": "2018-01-24T16:38:41+01:00",
     "location": "/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar",
     "javaRuntime": true
   },
@@ -111,8 +111,8 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "97f0f18b2d0a5ed5a01a682027efa9fb8bae1a5c",
-    "jarFileModificationDate": "2017-09-25T17:57:45+02:00",
+    "jarFileFingerprint": "b7a72e246d0d48ac4de5646f46d485a4745ac8b6",
+    "jarFileModificationDate": "2018-01-24T16:38:41+01:00",
     "location": "/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar",
     "javaRuntime": true
   },
@@ -124,8 +124,8 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "318b12d1b9a565f482363ff9f363102619bbe3a0",
-    "jarFileModificationDate": "2017-09-25T17:57:45+02:00",
+    "jarFileFingerprint": "51138c6e2f07d7520c102ab539a78b5676976d6f",
+    "jarFileModificationDate": "2018-01-24T16:38:41+01:00",
     "location": "/usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar",
     "javaRuntime": true
   },
@@ -137,8 +137,8 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "df60338aa0280cd4cd3ec48460e59feaf289ca3b",
-    "jarFileModificationDate": "2017-09-25T17:57:45+02:00",
+    "jarFileFingerprint": "5e584c303515ad198d30780cec402eb0adf554ef",
+    "jarFileModificationDate": "2018-01-24T16:38:41+01:00",
     "location": "/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar",
     "javaRuntime": true
   },
@@ -150,8 +150,8 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "c106493c7ab98bec5e75a7380128954a17f21f5d",
-    "jarFileModificationDate": "2017-09-25T17:57:44+02:00",
+    "jarFileFingerprint": "53d421435559d5c768e8305a01e5ca8a5edb72e7",
+    "jarFileModificationDate": "2018-01-24T16:38:41+01:00",
     "location": "/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar",
     "javaRuntime": true
   },
@@ -163,8 +163,8 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "9b8c5f538391b23291468c458ee3794545345c10",
-    "jarFileModificationDate": "2017-09-25T17:57:45+02:00",
+    "jarFileFingerprint": "f54a5fc82d24d6db3d5396c50b3c2351738c87e2",
+    "jarFileModificationDate": "2018-01-24T16:38:41+01:00",
     "location": "/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar",
     "javaRuntime": true
   },
@@ -176,8 +176,8 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "29c4e3d2d8cabc2a7a3067a511f5983270be735c",
-    "jarFileModificationDate": "2017-09-25T17:57:45+02:00",
+    "jarFileFingerprint": "1aa647fc8d12ab11539f314ee286f8cddf0ebb4b",
+    "jarFileModificationDate": "2018-01-24T16:38:41+01:00",
     "location": "/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar",
     "javaRuntime": true
   },
@@ -189,8 +189,8 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "3e03b24852bf437dfae6a779e270eee60af5b641",
-    "jarFileModificationDate": "2017-09-25T17:57:45+02:00",
+    "jarFileFingerprint": "091caa81039687f052d349725b96b1ab9a474d8b",
+    "jarFileModificationDate": "2018-01-24T16:38:41+01:00",
     "location": "/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar",
     "javaRuntime": true
   },
@@ -202,8 +202,8 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "9edf0f7c3cdd91cf3596edf9970074112cf13d3c",
-    "jarFileModificationDate": "2017-09-25T17:57:45+02:00",
+    "jarFileFingerprint": "bf1c817820341a246f7130fe046e8310b03d04f6",
+    "jarFileModificationDate": "2018-01-24T16:38:41+01:00",
     "location": "/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar",
     "javaRuntime": true
   }
