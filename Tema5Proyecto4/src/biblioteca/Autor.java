@@ -52,7 +52,7 @@ public class Autor {
 	// ToString
 	public String toString() {
 		return "Nombre: " + nombre + "\nEmail: " + email
-				+ "\nFecha de Nacimiento: " + fechaNacimiento;
+				+ "\nFecha de Nacimiento " + fechaNacimiento;
 	}
 
 }
