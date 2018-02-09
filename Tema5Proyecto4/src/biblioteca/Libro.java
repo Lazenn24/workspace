@@ -3,6 +3,12 @@ package biblioteca;
 import java.util.Scanner;
 
 
+
+/**
+ * @author Sergio
+ * @version 1.0
+ * @since 01/02/2018
+ */
 public class Libro {
 
 	// Atributos
@@ -13,15 +19,27 @@ public class Libro {
 	
 	Scanner in = new Scanner(System.in);
 	
-	
-
-	// Constructores
+	/**
+	 * @param titulo
+	 * Constructor en caso de saber solo su nombre
+	 */
 	public Libro(String titulo) {
 		
 		this.titulo = titulo;
 		
 	}
-
+	
+	/**
+	 * Constructor vacio, necesario para crear objetos vacios.
+	 */
+	public Libro(){
+		
+	}
+	/**
+	 * @param titulo titulo del libro
+	 * @param isbn isbn del libro
+	 * @param autores[] array de todos los objetos autor recogidos
+	 */
 	public Libro(String titulo, String isbn, Autor autores[]) {
 		
 		this.titulo = titulo;
@@ -30,9 +48,6 @@ public class Libro {
 		
 	}
 	
-	public Libro(){
-	
-	}
 
 	// Metodo Get
 	public String getTitulo() {
@@ -66,8 +81,10 @@ public class Libro {
 	public static void setAnyoActual(int anyoActual) {
 		Libro.anyoActual = anyoActual;
 	}
-
-	// Metodo toString
+	
+	/**
+	 * @return Devuelve el titulo del libro con su autor si solo tiene uno, si no dice que esta escritos por varios
+	 */
 	public String toString() {
 		
 		if (autores.length > 1) {
@@ -78,6 +95,10 @@ public class Libro {
 
 	}
 	
+	/**
+	 * @see leeAutores
+	 * @return Muestra todos los autores recogidos
+	 */
 	public String muestraAutores(){
 		
 		String listaAutores="";
@@ -91,7 +112,10 @@ public class Libro {
 		
 	}
 	
-	// Este metodo lee una serie de autores que se guardaran en el atributo autores.
+	/**
+	 * Este metodo sirve para leer y guardar datos de autores
+	 * @see muestraAutores
+	 */
 	public void leeAutores(){
 		
 		int numAutores;
@@ -122,10 +146,11 @@ public class Libro {
 		}
 		
 
-		
-		
 	}
-	
+
+	/**
+	 * @see toString
+	 */
 	public void leeLibro(){
 		
 		System.out.println("\nIntroduce los datos del próximo libro.");

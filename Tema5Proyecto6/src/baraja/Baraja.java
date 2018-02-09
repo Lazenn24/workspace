@@ -1,5 +1,11 @@
 package baraja;
 
+/*
+ * @autor Sergio Lopez
+ * Created on 6 of february of 2018
+ * @since 1.0
+ */
+
 public class Baraja {
 
 	private Carta[] cartas = new Carta[52];

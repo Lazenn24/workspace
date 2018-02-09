@@ -19,3 +19,31 @@ j  i
 .
 .
 .
+
+Barajar
+
+Pseudocodigo
+
+Para i desde 0 a 99 vecs
+
+	Encontrar un nº aleatorio (0-51).
+	Encontrar otro nº aleatorio (0-51).
+	Intercambiar ambos nº.
+
+fin para
+
+Cortar
+
+Pseudocodigo
+
+creamos aux[numCorte]
+
+copias las posiciones 0 a numCorte -1 al array aux
+
+subimos "numCorte" posiciones desde cartas[numCartas] hasta cartas[51]
+
+copiamos cada posicion del array aux en la parte de abajo de cartas
+
+comenzamos a escribir en cartas[cartas.length - numCorte]
+
+

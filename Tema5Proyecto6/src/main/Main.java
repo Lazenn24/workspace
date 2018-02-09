@@ -1,5 +1,11 @@
 package main;
 
+/*
+ * @autor Sergio Lopez
+ * Created on 6 of february of 2018
+ * @since 1.0
+ */
+
 import baraja.Carta;
 import baraja.Baraja;
 

@@ -1,5 +1,12 @@
 package biblioteca;
 
+/**
+ * 
+ *
+ * @author horabaixa
+ * @version 1.0
+ * @since 01/02/2018
+ */
 public class Autor {
 
 	// Atributos
@@ -11,15 +18,20 @@ public class Autor {
 
 	/**
 	 * Constructor de Autor
+	 * @param nombre nombre del autor
+	 * @param email	correo del autor
+	 * @param fechaNacimiento fecha de nacimiento del autor
 	 */
 	public Autor(String nombre, String email, int fechaNacimiento) {
 		this.nombre = nombre;
 		this.email = email;
 		this.fechaNacimiento = fechaNacimiento;
 	}
-
-	// Solo se introduce el parametro al que
-	// no se le pone nada dentro del this
+	
+	/**
+	 * Constructor en caso de tan solo saber el nombre del autor
+	 * @param nombre nombre del autor
+	 */
 	public Autor(String nombre) {
 		this(nombre, "Unknown", 0);
 	}
@@ -49,7 +61,10 @@ public class Autor {
 		this.fechaNacimiento = fechaNacimiento;
 	}
 
-	// ToString
+	/**
+	 * @return datos del autor
+	 * @see toString .Autores
+	 */
 	public String toString() {
 		return "Nombre: " + nombre + "\nEmail: " + email
 				+ "\nFecha de Nacimiento " + fechaNacimiento;

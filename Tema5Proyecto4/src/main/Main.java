@@ -6,7 +6,14 @@ import biblioteca.Libro;
 import biblioteca.Autor;
 
 public class Main {
-
+	
+	
+	/**
+	 * @author Sergio
+	 * @version 1.0
+	 * @since 01/02/2018
+	 * @param args string por defecto de la clase main
+	 */
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
