@@ -5,10 +5,7 @@ public abstract class Medio {
 	
 	private double duracion;
 	
-	public Medio(){
-		
-	}
-	
+
 	public Medio(String nombre, double duracion){
 		
 		this.nombre = nombre;

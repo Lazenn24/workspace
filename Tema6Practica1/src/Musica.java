@@ -5,11 +5,8 @@ public class Musica extends Medio {
 	
 	private String estilo;
 	
-	public Musica(){
-		
-	}
 	
-	public Musica(String nombre, double duracion, String artista, String estilo){
+public Musica(String nombre, double duracion, String artista, String estilo){
 		
 		super(nombre, duracion);
 		
@@ -18,7 +15,9 @@ public class Musica extends Medio {
 		this.estilo = estilo;
 	}
 	
+	@Override
 	public void reproducir(){
+		System.out.println("Reproduciendo...");
 		
 	}
 

@@ -1,11 +1,9 @@
 
-public class Mp3 extends Musica {
+public class Mp3 extends Musica implements Guardable{
 	
 	private int modo;
 	
-	public Mp3(){
-		
-	}
+
 	
 	public Mp3(String nombre, double duracion, String artista, String estilo, int modo){
 		
@@ -15,6 +13,12 @@ public class Mp3 extends Musica {
 		
 	}
 	
+	
+	public boolean guardar() {
+		System.out.println("Guardando...");
+		return true;
+	}
+	
 	public int getModo() {
 		return modo;
 	}
@@ -22,6 +26,8 @@ public class Mp3 extends Musica {
 	public void setModo(int modo) {
 		this.modo = modo;
 	}
+
+
 	
 	
 

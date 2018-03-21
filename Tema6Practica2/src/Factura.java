@@ -50,7 +50,7 @@ public class Factura {
 			
 		}
 		
-		System.out.printf();
+		
 
 	}
 
