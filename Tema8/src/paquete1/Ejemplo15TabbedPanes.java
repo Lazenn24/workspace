@@ -17,7 +17,10 @@ public class Ejemplo15TabbedPanes extends JFrame {
 	public Ejemplo15TabbedPanes() {
 
 		super("Meses del año");
-		setSize(300, 200);
+		
+		// No uso el setSize porque ajustare el tamaño de la ventana con pack().
+		
+        // setSize(300, 200);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 
 		setLayout(new FlowLayout(FlowLayout.LEFT));
@@ -51,6 +54,10 @@ public class Ejemplo15TabbedPanes extends JFrame {
 		
 		// Ventana global
 		add(panelon);
+		
+		// Con el método pack() hacemos que la ventana coja el tamñao justo
+		// para que quepan todos los componentes.
+		pack();
 		
 		setVisible(true);
 	}
