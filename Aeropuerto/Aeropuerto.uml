@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_hFd9MFqlEeiel-SjHU3MEQ" name="Aeropuerto">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_hc0tQFqlEeiel-SjHU3MEQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_k9QuIFqlEeiel-SjHU3MEQ" name="Aerolinea">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_oFUEMFqlEeiel-SjHU3MEQ" name="nombre" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_muCvQFqlEeiel-SjHU3MEQ" name="String"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0dYNEFqlEeiel-SjHU3MEQ" name="Avion">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8tdM4FqlEeiel-SjHU3MEQ" name="tipo" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-NmJ8FqlEeiel-SjHU3MEQ" name="numPasajero" visibility="private" type="_3IUwYFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JD5TMFqoEeiel-SjHU3MEQ" name="companyia" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_1lNX0FqlEeiel-SjHU3MEQ" name="String"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_3IUwYFqlEeiel-SjHU3MEQ" name="int"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_AmWxEFqmEeiel-SjHU3MEQ" name="Aeropuerto">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_IJDtgFqmEeiel-SjHU3MEQ" name="nombre" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PpUZ8FqmEeiel-SjHU3MEQ" name="ciudad" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_QwFNsFqmEeiel-SjHU3MEQ" name="pais" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_Dz6SMFqmEeiel-SjHU3MEQ" name="String"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_R9bxoFqmEeiel-SjHU3MEQ" name="Vuelo">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_XitYEFqmEeiel-SjHU3MEQ" name="numero" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_Wv6pMFqmEeiel-SjHU3MEQ" name="String"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ZA8QoFqmEeiel-SjHU3MEQ" name="Tarifa">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_eE89EFqmEeiel-SjHU3MEQ" name="clase" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_fQ_SYFqmEeiel-SjHU3MEQ" name="precio" visibility="private" type="_bewW4FqmEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ghjiYFqmEeiel-SjHU3MEQ" name="impuestos" visibility="private" type="_3IUwYFqlEeiel-SjHU3MEQ"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_aOvggFqmEeiel-SjHU3MEQ" name="String"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_bewW4FqmEeiel-SjHU3MEQ" name="double"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_cwxYYFqmEeiel-SjHU3MEQ" name="int"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iP5TgFqmEeiel-SjHU3MEQ" name="Asiento">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nR2KcFqmEeiel-SjHU3MEQ" name="fila" visibility="private" type="_3IUwYFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_og3iUFqmEeiel-SjHU3MEQ" name="letra" visibility="private" type="_ktEgkFqmEeiel-SjHU3MEQ"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_ktEgkFqmEeiel-SjHU3MEQ" name="char"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_l358AFqmEeiel-SjHU3MEQ" name="int"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qHDdAFqmEeiel-SjHU3MEQ" name="Reserva">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HTzrEFqnEeiel-SjHU3MEQ" name="clave" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_I4w2sFqnEeiel-SjHU3MEQ" name="costoTotal" visibility="private" type="_bewW4FqmEeiel-SjHU3MEQ"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_Cwl-kFqnEeiel-SjHU3MEQ" name="String"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_Gpx2oFqnEeiel-SjHU3MEQ" name="double"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Np6RgFqnEeiel-SjHU3MEQ" name="Pago">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_TPxGwFqnEeiel-SjHU3MEQ" name="tipo" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_U5Z-EFqnEeiel-SjHU3MEQ" name="fecha" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WVFR4FqnEeiel-SjHU3MEQ" name="cantidad" visibility="private" type="_bewW4FqmEeiel-SjHU3MEQ"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_P2cagFqnEeiel-SjHU3MEQ" name="String"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_RowFoFqnEeiel-SjHU3MEQ" name="double"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_f-5r0FqnEeiel-SjHU3MEQ" name="Pasajero">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iepEsFqnEeiel-SjHU3MEQ" name="nombre" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jRuHcFqnEeiel-SjHU3MEQ" name="direccion" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kZ8TwFqnEeiel-SjHU3MEQ" name="ciudad" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_liXUYFqnEeiel-SjHU3MEQ" name="pais" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mgS8QFqnEeiel-SjHU3MEQ" name="codigoPostal" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_niA38FqnEeiel-SjHU3MEQ" name="tlfCasa" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pGCPcFqnEeiel-SjHU3MEQ" name="tlfOficina" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_s2uS0FqnEeiel-SjHU3MEQ" name="fax" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_uGkKEFqnEeiel-SjHU3MEQ" name="email" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_hWhmEFqnEeiel-SjHU3MEQ" name="String"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_vY_bQFqnEeiel-SjHU3MEQ" name="Tarjeta">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zljiUFqnEeiel-SjHU3MEQ" name="nombre" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_0o_VQFqnEeiel-SjHU3MEQ" name="numero" visibility="private" type="_3IUwYFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2QXiwFqnEeiel-SjHU3MEQ" name="tipo" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3gV84FqnEeiel-SjHU3MEQ" name="fecha" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4of3wFqnEeiel-SjHU3MEQ" name="vencimiento" visibility="private" type="_muCvQFqlEeiel-SjHU3MEQ"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_wt0gMFqnEeiel-SjHU3MEQ" name="String"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_yL_HUFqnEeiel-SjHU3MEQ" name="int"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_6mWrkFqnEeiel-SjHU3MEQ" name="Hora"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7cNVgFqnEeiel-SjHU3MEQ" name="Dia"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FjyCcFqoEeiel-SjHU3MEQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PXjpoFqoEeiel-SjHU3MEQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QGXQYFqoEeiel-SjHU3MEQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_R6sUwFqoEeiel-SjHU3MEQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ek59kFqoEeiel-SjHU3MEQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_k1ZrQFqoEeiel-SjHU3MEQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rtUlUFqoEeiel-SjHU3MEQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uBr0oFqoEeiel-SjHU3MEQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1fYVQFqoEeiel-SjHU3MEQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3_s88FqoEeiel-SjHU3MEQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6qvm4FqoEeiel-SjHU3MEQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8bw4kFqoEeiel-SjHU3MEQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_DM6cQFqpEeiel-SjHU3MEQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FPoh8FqpEeiel-SjHU3MEQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_K_rN8FqpEeiel-SjHU3MEQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PIYIsFqpEeiel-SjHU3MEQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gM7O0FqpEeiel-SjHU3MEQ"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_p1qngFqlEeiel-SjHU3MEQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p1r1oFqlEeiel-SjHU3MEQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
